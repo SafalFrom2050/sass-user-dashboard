@@ -1,0 +1,7 @@
+.button-fill{
+  @include reset-button;
+  color: $color-white;
+  background-color: $color-primary;
+  padding: .8rem 3rem;
+  font-size: 1rem;
+}

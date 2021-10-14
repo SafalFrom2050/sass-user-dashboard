@@ -1,0 +1,28 @@
+form{
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+  max-width: 400px;
+  padding: 2rem 3rem;
+
+  label{
+    color: $color-primary-light;
+    font-weight: bold;
+  }
+
+  input{
+    margin-bottom: 16px;
+    margin-top: 8px;
+    padding: .6rem;
+  }
+
+  label[for=radio], label[for=radio-2]{
+    font-weight: lighter;
+
+    input{
+      margin: auto;
+    }
+  }
+}
+

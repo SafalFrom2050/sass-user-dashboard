@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"><strong>Astral</strong></div>
+      <h2>MY ACCOUNT</h2>
+      <div>PPPPP</div>
+    </header>
+
+    <div class="container">
+      <nav class="side-nav">
+        <div class="account-info">
+          <div class="profile-img">SS</div>
+          <span>Hi, <strong>Safal Sharma</strong></span>
+        </div>
+        <ul>
+          <li>
+            <a href="/">
+              <img src="svgs/circle-fill.svg" alt="circle icon" />
+              Account overview
+            </a>
+          </li>
+
+          <li>
+            <a href="orders.html">
+              <img src="svgs/circle-fill.svg" alt="circle icon" /> My orders</a
+            >
+          </li>
+
+          <li class="group">
+            <ul>
+              <li>
+                <a href="details.html" class="active">
+                  <img src="svgs/circle-fill.svg" alt="circle icon" /> My
+                  details</a
+                >
+              </li>
+              <hr />
+              <li>
+                <a href="#">
+                  <img src="svgs/circle-fill.svg" alt="circle icon" /> Change
+                  password</a
+                >
+              </li>
+              <hr />
+
+              <li>
+                <a href="#">
+                  <img src="svgs/circle-fill.svg" alt="circle icon" /> Account
+                  overview</a
+                >
+              </li>
+              <hr />
+
+              <li>
+                <a href="#">
+                  <img src="svgs/circle-fill.svg" alt="circle icon" /> Address
+                  book</a
+                >
+              </li>
+              <hr />
+
+              <li>
+                <a href="#">
+                  <img src="svgs/circle-fill.svg" alt="circle icon" /> Payment
+                  method</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="svgs/circle-fill.svg" alt="circle icon" /> Contact
+              preferences</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <section class="details-section">
+        <h2 class="title-text">
+          <img
+            src="svgs/circle-fill.svg"
+            class="w-4 h-4 mb-2"
+            alt="circle icon"
+          />
+          MY DETAILS <br />
+          <span>Keep your account information up to date</span>
+        </h2>
+
+        <form>
+          <label for="firstname">FIRST NAME:</label>
+          <input type="text" id="firstname" name="firstname" />
+
+          <label for="lastname">LAST NAME:</label>
+          <input type="text" id="lastname" name="lastname" />
+
+          <label for="email">EMAIL:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="dob">DATE OF BIRTH:</label>
+          <input type="date" id="dob" name="dob" />
+
+          <div class="mt-1">
+            <label>MOSTLY INTERESTED IN:</label>
+            <div class="mt-2 flex-row">
+              <label for="radio">
+                <input
+                  type="radio"
+                  id="radio"
+                  name="interested-in"
+                  value="Womenswear"
+                />
+                Womenswear
+              </label>
+
+              <hr class="separator-vertical" />
+              <label for="radio-2">
+                <input
+                  type="radio"
+                  id="radio-2"
+                  name="interested-in"
+                  value="Menswear"
+                />
+                Menswear
+              </label>
+            </div>
+          </div>
+
+          <button class="button-fill mt-4 font-bold">SAVE CHANGES</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

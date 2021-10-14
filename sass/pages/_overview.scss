@@ -1,0 +1,21 @@
+.overview-section{
+  background-color: $color-white;
+  flex-grow: 1;
+
+  margin: 0 1rem;
+
+
+  .welcome-text{
+    margin: 3rem 2rem;
+    width: fit-content;
+
+    span{
+      background-color: $color-primary;
+      color: $color-white;
+      font-size: 2rem;
+      padding: 4px 1rem;
+      line-height: 3rem;
+    }
+  }
+
+}

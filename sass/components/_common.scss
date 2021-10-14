@@ -1,0 +1,16 @@
+.title-text {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-white;
+
+  padding: 2rem 3rem;
+  font-size: 1.5rem;
+
+  margin: unset;
+  line-height: 2.5rem;
+
+  span {
+    font-weight: lighter;
+    font-size: 1rem;
+  }
+}

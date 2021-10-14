@@ -1,0 +1,23 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./components/buttons";
+@import "./components/header";
+@import "./components/side-nav";
+@import "./components/form";
+@import "./components/common";
+
+@import "utils/util-classes";
+
+@import "./pages/overview";
+@import "./pages/orders";
+@import "./pages/details";
+
+body{
+  background-color: $color-gray;
+}
+
+.container{
+  @include max-page-size;
+  display: flex;
+}
